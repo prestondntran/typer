@@ -7,7 +7,7 @@ export default function History() {
   const [gameStats, setGameStats] = useState([]);
   const fetchData = async () => {
     try {
-      const response = await axios.get("https://typer-wjpq9w9p3-prestondntrans-projects.vercel.app");
+      const response = await axios.get("https://typer-9vzk3ph0y-prestondntrans-projects.vercel.app");
       setGameStats(response.data);
     }
     catch(error) {
