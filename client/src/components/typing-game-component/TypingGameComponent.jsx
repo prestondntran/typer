@@ -46,7 +46,7 @@ const TypingGameComponent = () => {
   const sendGameStats = async (stats) => {
     try {
       // Make a POST request to create/update the game stats document
-      const response = await axios.post("https://typer-mbi7mdoiq-prestondntrans-projects.vercel.app", stats);
+      const response = await axios.post("https://typer-red.vercel.app", stats);
       console.log(response.data);
     } catch (error) {
       console.error("Failed to create/update game stats:", error);
